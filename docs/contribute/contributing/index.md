@@ -21,10 +21,10 @@ That's it! We'll review and work with you to get it merged.
 
 ## Ways to Contribute
 
-### 🎯 Submit a Best Practice
-Share your expertise by creating a new skill, agent, or guide.
+### 🎯 Contribute a Skill
+Share your expertise by creating a new PDS skill, agent, or guide.
 
-**→ [See the full guide](/docs/contribute/submit-best-practice)**
+**→ [See the full guide to contributing a skill](/docs/contribute/submit-best-practice)**
 
 ### 🐛 Report a Bug
 Found something broken? Create an issue with details.
@@ -63,8 +63,7 @@ Contributing code? Check the `README.md` for setup instructions.
 We'll check for clarity, correctness, and compatibility. Address feedback
 promptly and we'll get your contribution merged!
 
-**First time?** Check out [this guide](https://kcd.im/pull-request) on creating
-pull requests.
+**First time?** Check out [how to open a pull request](https://kcd.im/pull-request).
 
 ---
 

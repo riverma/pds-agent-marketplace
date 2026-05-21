@@ -20,7 +20,7 @@ An _agentic_ AI coding tool — one that can read/write files and run commands:
 - **Claude Code** — command-line AI agent by Anthropic
 - **Cursor**, **Windsurf**, **Aider**, and other assistants with skill / MCP support
 
-Browse the [marketplace](/), open a skill, and click **Install** for instructions.
+Browse the [PDS Agent Marketplace catalog](/), open a skill, and click **Install** for instructions.
 
 ---
 
@@ -57,8 +57,8 @@ marketplace is added, skills install with:
 
 Add a skill folder under `static/marketplace/skills/`, add an entry to
 `static/data/registry.json`, and run `npm run prebuild`. See
-[Submit a Best Practice](/docs/contribute/submit-best-practice) for the full
-walkthrough, and the project `README.md` for the quick reference.
+[Contribute a Skill to the PDS Agent Marketplace](/docs/contribute/submit-best-practice)
+for the full walkthrough, and the project `README.md` for the quick reference.
 
 ---
 

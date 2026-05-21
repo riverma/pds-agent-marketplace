@@ -55,11 +55,11 @@ alerts," and the agent applies the PDS-standard workflow automatically.
 - 🔒 **Security** — export, triage, and update dependency (Dependabot) and
   SonarCloud security findings across PDS repositories.
 
-Browse the [marketplace](/) to see every available skill, or read the
-[FAQ](/docs/faq) to get started.
+Browse the [PDS Agent Marketplace catalog](/) to see every available skill, or
+read the [PDS Agent Marketplace FAQ](/docs/faq) to get started.
 
 ## How it works
 
 The catalog is driven by a single hand-authored file, `static/data/registry.json`.
 The Claude Code plugin manifest is generated from it automatically by the build.
-To contribute a skill, see [Submit a Best Practice](/docs/contribute/submit-best-practice).
+To contribute a skill, see [Contribute a Skill to the PDS Agent Marketplace](/docs/contribute/submit-best-practice).

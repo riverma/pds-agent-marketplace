@@ -2,10 +2,10 @@
 sidebar_position: 1
 ---
 
-# Submit a Best Practice
+# Contribute a Skill
 
-Want to share your expertise? Here's how to contribute a best practice as a
-skill, agent, or MCP server.
+Want to share your expertise? Here's how to contribute a skill, agent, or
+MCP server to the PDS Agent Marketplace.
 
 ## Quick Start
 
@@ -29,7 +29,7 @@ work.
 
 ### Add the content folder
 
-Create your best practice under `static/marketplace/`:
+Create your skill under `static/marketplace/`:
 
 ```
 static/marketplace/skills/your-skill-name/
