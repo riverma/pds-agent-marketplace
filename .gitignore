@@ -1,0 +1,9 @@
+# auto-generated files
+.docusaurus/
+.claude/
+
+# development environment
+**/node_modules
+/build/**
+.DS_Store
+static/assets/zip/
