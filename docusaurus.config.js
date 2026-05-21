@@ -157,8 +157,8 @@ const config = {
   customFields: {
     // Enhanced branding configuration for easy customization
     brandingConfig: {
-      // Visual Assets
-      logoPath: "/img/logo.svg",
+      // Visual Assets — hero uses the official NASA PDS logo
+      logoPath: "/img/pds-logo.svg",
 
       // Hero Section Control
       hero: {

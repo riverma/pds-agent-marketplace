@@ -43,8 +43,8 @@ Answer questions in discussions or on issues.
 ## Before You Start
 
 ### Required Reading (5 min)
-- **[Code of Conduct](/docs/about/CODE_OF_CONDUCT)** — be respectful and inclusive
 - **License** — understand usage terms (Apache 2.0)
+- Be respectful and inclusive in all project spaces
 
 ### Development Setup
 Contributing code? Check the `README.md` for setup instructions.
