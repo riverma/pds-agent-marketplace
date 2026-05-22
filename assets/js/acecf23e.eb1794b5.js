@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkdocusaurus=globalThis.webpackChunkdocusaurus||[]).push([[1903],{1912:a=>{a.exports=JSON.parse('{"blogBasePath":"/pds-agent-marketplace/blog","blogTitle":"Blog","authorsListPath":"/pds-agent-marketplace/blog/authors"}')}}]);
