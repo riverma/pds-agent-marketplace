@@ -25,7 +25,7 @@
         "pds"
       ],
       "example": "Create a bug report issue in a NASA-PDS repository",
-      "lastUpdated": "2026-05-21",
+      "lastUpdated": "2026-03-27",
       "type": "skill",
       "skill_file_url": "/pds-agent-marketplace/marketplace/skills/creating-pds-issues/SKILL.md",
       "zip_file_path": "assets/zip/creating-pds-issues.zip"
@@ -43,7 +43,7 @@
         "pds"
       ],
       "example": "Open a pull request for the current branch",
-      "lastUpdated": "2026-05-21",
+      "lastUpdated": "2026-03-20",
       "type": "skill",
       "skill_file_url": "/pds-agent-marketplace/marketplace/skills/creating-pds-pull-requests/SKILL.md",
       "zip_file_path": "assets/zip/creating-pds-pull-requests.zip"
@@ -61,7 +61,7 @@
         "pds"
       ],
       "example": "Generate release notes for the latest version",
-      "lastUpdated": "2026-05-21",
+      "lastUpdated": "2026-03-17",
       "type": "skill",
       "skill_file_url": "/pds-agent-marketplace/marketplace/skills/generating-release-notes/SKILL.md",
       "zip_file_path": "assets/zip/generating-release-notes.zip"
@@ -79,7 +79,7 @@
         "pds"
       ],
       "example": "Export Dependabot alerts for our PDS repositories",
-      "lastUpdated": "2026-05-21",
+      "lastUpdated": "2026-04-23",
       "type": "skill",
       "skill_file_url": "/pds-agent-marketplace/marketplace/skills/dependabot-alerts-exporting/SKILL.md",
       "zip_file_path": "assets/zip/dependabot-alerts-exporting.zip"
@@ -97,7 +97,7 @@
         "pds"
       ],
       "example": "Triage our open Dependabot alerts",
-      "lastUpdated": "2026-05-21",
+      "lastUpdated": "2026-04-23",
       "type": "skill",
       "skill_file_url": "/pds-agent-marketplace/marketplace/skills/dependabot-alerts-triaging/SKILL.md",
       "zip_file_path": "assets/zip/dependabot-alerts-triaging.zip"
@@ -115,7 +115,7 @@
         "pds"
       ],
       "example": "Export SonarCloud security issues to CSV",
-      "lastUpdated": "2026-05-21",
+      "lastUpdated": "2026-04-18",
       "type": "skill",
       "skill_file_url": "/pds-agent-marketplace/marketplace/skills/sonarcloud-security-exporting/SKILL.md",
       "zip_file_path": "assets/zip/sonarcloud-security-exporting.zip"
@@ -133,7 +133,7 @@
         "pds"
       ],
       "example": "Triage our open SonarCloud security issues",
-      "lastUpdated": "2026-05-21",
+      "lastUpdated": "2026-04-23",
       "type": "skill",
       "skill_file_url": "/pds-agent-marketplace/marketplace/skills/sonarcloud-security-triaging/SKILL.md",
       "zip_file_path": "assets/zip/sonarcloud-security-triaging.zip"
@@ -151,7 +151,7 @@
         "pds"
       ],
       "example": "Apply my triage decisions to SonarCloud",
-      "lastUpdated": "2026-05-21",
+      "lastUpdated": "2026-04-17",
       "type": "skill",
       "skill_file_url": "/pds-agent-marketplace/marketplace/skills/sonarcloud-security-updating/SKILL.md",
       "zip_file_path": "assets/zip/sonarcloud-security-updating.zip"
