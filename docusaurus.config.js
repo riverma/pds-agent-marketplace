@@ -18,12 +18,12 @@ const config = {
   favicon: "/img/favicon.svg",
 
   // Set the production url of your site here
-  url: "https://nasa-pds.github.io",
+  url: "https://riverma.github.io",
   // Set the /<baseUrl>/ pathname under which your site is served
   baseUrl: "/pds-agent-marketplace/",
 
   // GitHub pages deployment config.
-  organizationName: "NASA-PDS",
+  organizationName: "riverma",
   projectName: "pds-agent-marketplace",
 
   onBrokenLinks: "warn",
@@ -41,12 +41,12 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
-          editUrl: "https://github.com/NASA-PDS/pds-agent-marketplace/tree/main/",
+          editUrl: "https://github.com/riverma/pds-agent-marketplace/tree/main/",
           sidebarCollapsed: true,
         },
         blog: {
           showReadingTime: true,
-          editUrl: "https://github.com/NASA-PDS/pds-agent-marketplace/tree/main/",
+          editUrl: "https://github.com/riverma/pds-agent-marketplace/tree/main/",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
@@ -85,7 +85,7 @@ const config = {
             label: "About",
           },
           {
-            href: "https://github.com/NASA-PDS/pds-agent-marketplace",
+            href: "https://github.com/riverma/pds-agent-marketplace",
             label: "GitHub",
             position: "right",
           },
@@ -129,7 +129,7 @@ const config = {
             items: [
               {
                 label: "GitHub",
-                href: "https://github.com/NASA-PDS/pds-agent-marketplace",
+                href: "https://github.com/riverma/pds-agent-marketplace",
               },
             ],
           },
