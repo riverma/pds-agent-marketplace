@@ -1,70 +1,91 @@
-name: Bug Report Form
-description: Report a bug to help us improve
+name: 🐛 Bug Report
+description: Report a bug with an existing skill
 title: "[Bug]: "
-labels: "bug"
+labels: ["bug"]
 body:
   - type: markdown
     attributes:
       value: |
-        > _Thanks for filing a bug ticket. We appreciate your time and effort. Please answer a few questions._
+        Thanks for reporting a bug! Please provide details below to help us fix it.
+
   - type: dropdown
-    id: checked-for-duplicates
+    id: skill
     attributes:
-      label: Checked for duplicates
-      description: Have you checked for duplicate issue tickets?
-      multiple: false
+      label: Which skill?
+      description: Select the skill that has the bug
       options:
-        - "Yes - I've already checked"
-        - "No - I haven't checked"
-    validations:
-      required: yes
-  - type: dropdown
-    id: website-or-best-practice-guide
-    attributes:
-      label: Website or Best Practice Guide?
-      description: Does the bug have to do with the website or a best practice guide?
-      multiple: false
-      options:
-        - "Website"
-        - "Best Practice Guide"
-    validations:
-      required: yes
-  - type: textarea
-    id: description
-    attributes:
-      label: Describe the bug
-      description: A clear and concise description of what the bug is. If the bug has to do with a best practice guide, be sure to mention which guide. Plain-text snippets preferred but screenshots welcome.
-      placeholder: Tell us what you saw
-      value: "When I did [...] action, I noticed [...]"
+        - creating-pds-issues
+        - creating-pds-pull-requests
+        - generating-release-notes
+        - dependabot-alerts-exporting
+        - dependabot-alerts-triaging
+        - sonarcloud-security-exporting
+        - sonarcloud-security-triaging
+        - sonarcloud-security-updating
+        - Marketplace website (not a specific skill)
+        - Other (specify in description)
     validations:
       required: true
+
   - type: textarea
-    id: expected-behavior
+    id: what-happened
     attributes:
-      label: What did you expect?
-      description: A clear and concise description of what you expect to happen
-      placeholder: Tell us what you expected
-      value: "I expected [...]"
+      label: What happened?
+      description: Describe the bug and what you expected to happen instead
+      placeholder: "When I tried to generate release notes for v1.2.0, the skill..."
     validations:
       required: true
+
   - type: textarea
     id: reproduction
     attributes:
-      label: Reproducible steps
-      description: "How would we reproduce this bug? Please walk us through it step by step. Plain-text snippets preferred but screenshots welcome."
-      value: |
-        1.
-        2.
-        3.
-        ...
-      render: bash
+      label: Steps to Reproduce
+      description: How can we reproduce this bug?
+      placeholder: |
+        1. Run command: claude "generate release notes for..."
+        2. Provide input: ...
+        3. Observe error: ...
+    validations:
+      required: true
+
   - type: textarea
     id: environment
     attributes:
       label: Environment
-      description: "What is your environment? Include any computer hardware, operating system, framework, browser, time-of-day or other contextual information related to your issue"
-      value: |
-        - Version of this software [e.g. vX.Y.Z]
-        - Operating System: [e.g. MacOSX with Docker Desktop vX.Y]
-        ...
-      render: bash
+      description: Provide environment details
+      placeholder: |
+        - Claude Code version: (run `claude --version`)
+        - Operating System: macOS, Linux, Windows
+        - Node.js version: (if applicable, run `node --version`)
+        - GitHub CLI version: (if applicable, run `gh --version`)
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Error Messages or Logs
+      description: Copy and paste any relevant error messages or logs (sanitize any sensitive information)
+      render: shell
+    validations:
+      required: false
+
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional Context
+      description: Any other information that might help diagnose the issue
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Pre-submission Checklist
+      options:
+        - label: I have searched existing issues to avoid duplicates
+          required: true
+        - label: I have sanitized any sensitive information (tokens, credentials, personal data)
+          required: true
+        - label: I have included enough detail to reproduce the issue
+          required: true
