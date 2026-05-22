@@ -7,6 +7,17 @@
 /* Importing Fluent System Fonts */
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Serif:wght@400;500;600&display=swap");
 
+/* Light mode (default) — PDS blue primary palette */
+:root {
+    --ifm-color-primary: #1f6fd0;
+    --ifm-color-primary-dark: #1c64bb;
+    --ifm-color-primary-darker: #1a5eb0;
+    --ifm-color-primary-darkest: #154e91;
+    --ifm-color-primary-light: #3a82d8;
+    --ifm-color-primary-lighter: #4f8fdd;
+    --ifm-color-primary-lightest: #84b3e9;
+}
+
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme="dark"] {
     --ifm-color-primary: #4d9fec;

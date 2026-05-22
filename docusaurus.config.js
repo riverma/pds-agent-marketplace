@@ -63,7 +63,7 @@ const config = {
         title: "PDS Agent Marketplace",
         logo: {
           alt: "PDS Agent Marketplace",
-          src: "img/logo.svg",
+          src: "img/pds-logo.svg",
         },
         items: [
           {
@@ -142,7 +142,7 @@ const config = {
       },
       colorMode: {
         disableSwitch: false,
-        defaultMode: "dark",
+        defaultMode: "light",
         respectPrefersColorScheme: false,
       },
     }),
